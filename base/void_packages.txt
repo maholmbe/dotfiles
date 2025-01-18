@@ -8,13 +8,13 @@ LuaJIT
 SDL
 SDL2
 SDL2_image
-SPIRV-LLVM-Translator19
 Solaar
 aalib
 abseil-cpp
 acl
 acpid
 adwaita-icon-theme
+adwaita-qt6
 aerc
 alembic
 alsa-lib
@@ -59,8 +59,6 @@ capstone
 cdrtools
 celt
 chromaprint
-clang17-headers
-clang19-headers
 cmake
 coin3
 confuse
@@ -103,10 +101,10 @@ encodings
 ethtool
 eudev
 eudev-libudev
-eudev-libudev-devel
 expat
 f2fs-tools
 faac
+fastfetch
 fd
 fdk-aac
 feh
@@ -201,7 +199,6 @@ grub
 grub-x86_64-efi
 gsettings-desktop-schemas
 gsfonts
-gsoap
 gst-plugins-bad1
 gst-plugins-base1
 gst-plugins-good1
@@ -219,7 +216,6 @@ hdf5
 hdparm
 hicolor-icon-theme
 highway
-http-parser
 hwids
 hyphen
 hyphen-en
@@ -259,8 +255,6 @@ lcms2
 ldacBT
 less
 libICE
-libIDL
-libOSMesa
 libSM
 libX11
 libX11-devel
@@ -340,9 +334,6 @@ libcddb
 libcdio
 libcdio-paranoia
 libcdparanoia
-libclang-cpp19
-libclang17
-libclc19
 libcloudproviders
 libcolord
 libconfig
@@ -360,9 +351,9 @@ libde265
 libdebuginfod
 libdecor
 libdeflate
+libdisplay-info
 libdjvulibre
 libdrm
-libdrm-devel
 libdvdcss
 libdvdnav
 libdvdread
@@ -384,16 +375,14 @@ libfontenc
 libfreeaptx
 libfreeglut
 libgbm
-libgbm-devel
 libgcc
 libgcc-devel
 libgcrypt
 libgfortran
 libgirepository
-libgit2
+libgit2-1.8
 libglapi
 libglvnd
-libglvnd-devel
 libgme
 libgomp
 libgpg-error
@@ -426,8 +415,8 @@ liblastlog2
 liblc3
 libldap
 libldns
+libliftoff
 liblilv
-libllvm17
 libllvm19
 liblqr
 liblrdf
@@ -469,7 +458,6 @@ libpaper
 libparted
 libpcap
 libpciaccess
-libpciaccess-devel
 libpcre
 libpcre2
 libpcsclite
@@ -498,6 +486,7 @@ librtmp
 librubberband
 libsamplerate
 libsasl
+libseat
 libseccomp
 libsecret
 libsensors
@@ -603,6 +592,7 @@ linux-firmware-nvidia
 linux-headers
 linux6.12
 linux6.12-headers
+llhttp
 lua51
 lua51-lpeg
 lua52
@@ -629,7 +619,6 @@ ncurses
 ncurses-base
 ncurses-libs
 ncurses-libtinfo-libs
-neofetch
 neovim
 nerd-fonts
 nerd-fonts-otf
@@ -773,6 +762,8 @@ python3-pyqt6-widgets
 python3-pyside6
 python3-pyte
 python3-pyudev
+python3-pywayland
+python3-pywlroots
 python3-requests
 python3-setuptools
 python3-shiboken6
@@ -782,6 +773,7 @@ python3-urllib3
 python3-wcwidth
 python3-websockets
 python3-xcffib
+python3-xkbcommon
 python3-xlib
 python3-yaml
 qalculate-gtk
@@ -860,14 +852,10 @@ qt5-dbus
 qt5-declarative
 qt5-gui
 qt5-network
-qt5-opengl
-qt5-printsupport
 qt5-speech
 qt5-sql
 qt5-svg
 qt5-test
-qt5-tools
-qt5-translations
 qt5-wayland
 qt5-widgets
 qt5-x11extras
@@ -910,8 +898,9 @@ qt6-webengine
 qt6-websockets
 qt6-widgets
 qt6-xml
-qtchooser
+qt6ct
 qtile
+qtile-wayland
 qutebrowser
 rav1e
 rbw
@@ -986,8 +975,6 @@ virglrenderer
 virt-manager
 virt-manager-tools
 virtiofsd
-virtualbox-ose
-virtualbox-ose-dkms
 vivaldi
 vmaf
 void-artwork
@@ -1008,6 +995,7 @@ wireguard
 wireguard-dkms
 wireguard-tools
 wireplumber
+wlroots0.17
 wpa_supplicant
 x11perf
 x264
@@ -1019,6 +1007,7 @@ xbps-triggers
 xcalc
 xcb-util
 xcb-util-cursor
+xcb-util-errors
 xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
@@ -1098,6 +1087,7 @@ yajl
 yaml-cpp
 yazi
 yt-dlp
+yyjson
 zathura
 zathura-pdf-poppler
 zd1211-firmware
